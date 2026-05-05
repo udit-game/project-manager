@@ -5,6 +5,9 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   preview: {
-    host: true
+    host: true,
+    allowedHosts: [
+      'exquisite-playfulness-production-0373.up.railway.app'
+    ]
   }
 })
